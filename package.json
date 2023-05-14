@@ -1,5 +1,5 @@
 {
-  "name": "vota-nicknames",
+  "name": "vota-api-nicknames",
   "version": "0.0.1",
   "description": "Random nicknames generator",
   "type": "module",

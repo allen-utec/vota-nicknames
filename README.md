@@ -1,1 +1,1 @@
-# vota-nicknames
+# vota-api-nicknames
