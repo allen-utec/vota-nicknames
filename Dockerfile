@@ -1,8 +1,10 @@
 FROM node:lts-alpine
 WORKDIR /app
 
-COPY . .
+COPY package.json package-lock.json .
 RUN npm install
+
+COPY . .
 
 EXPOSE 9090
 
