@@ -1,18 +1,23 @@
 {
   "name": "vota-api-nicknames",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Random nicknames generator",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "start": "NODE_ENV=production node index.js"
-  },
   "author": "Alle Joseph",
   "license": "MIT",
-  "dependencies": {
-    "unique-names-generator": "^4.7.1"
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.ts",
+    "start:prod": "NODE_ENV=production bun run index.ts"
   },
   "devDependencies": {
-    "prettier": "^2.8.8"
+    "bun-types": "latest",
+    "prettier": "^3.0.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "unique-names-generator": "^4.7.1"
   }
 }
